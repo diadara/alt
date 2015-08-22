@@ -47,7 +47,7 @@ You can read more about what the rest of the files do [here](https://github.com/
 One of the main benefits of alt is the terse syntax. The actions in flux are ~80 LOC, and the dispatcher is ~15 LOC. With alt you can write both in ~15 LOC.
 
 Here are the actions:
-
+o
 ```js
 var alt = require('../alt')
 
@@ -67,7 +67,7 @@ class TodoActions {
 module.exports = alt.createActions(TodoActions)
 ```
 
-The store on flux closk in at ~160 LOC. In alt the store is 80 LOC.
+The store on flux clock in at ~160 LOC. In alt the store is 80 LOC.
 
 Here's the store:
 
